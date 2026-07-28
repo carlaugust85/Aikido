@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MANIFESTO | REFLECTION</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Anybody:wght@700;800&amp;family=Space+Mono:wght@400;700&amp;family=Hanken+Grotesk:wght@400&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                "on-surface": "#e5e2e1", "on-error": "#690005", "surface": "#131313", "on-tertiary-fixed": "#3d0700",
+                "inverse-surface": "#e5e2e1", "primary-fixed-dim": "#c6c6c6", "surface-variant": "#353534", "secondary": "#c8c6c5",
+                "tertiary-container": "#ffd7ce", "surface-dim": "#131313", "surface-container": "#201f1f", "inverse-on-surface": "#313030",
+                "tertiary-fixed-dim": "#ffb4a2", "on-tertiary-container": "#bd2900", "on-secondary-container": "#b7b5b4", "surface-container-highest": "#353534",
+                "on-secondary-fixed-variant": "#474746", "on-background": "#e5e2e1", "surface-bright": "#3a3939", "tertiary-fixed": "#ffdad2",
+                "on-tertiary": "#621100", "on-primary": "#2f3131", "on-error-container": "#ffdad6", "error": "#ffb4ab",
+                "on-secondary-fixed": "#1c1b1b", "background": "#131313", "tertiary": "#fffbff", "on-tertiary-fixed-variant": "#8a1c00",
+                "on-primary-fixed-variant": "#454747", "on-primary-fixed": "#1a1c1c", "surface-container-lowest": "#0e0e0e", "secondary-fixed-dim": "#c8c6c5",
+                "error-container": "#93000a", "primary": "#fdfdfc", "surface-tint": "#c6c6c6", "surface-container-low": "#1c1b1b",
+                "outline-variant": "#444748", "primary-fixed": "#e2e2e2", "inverse-primary": "#5d5f5f", "surface-container-high": "#2a2a2a",
+                "on-surface-variant": "#c4c7c8", "primary-container": "#e0e0e0", "outline": "#8e9192", "on-primary-container": "#626363",
+                "secondary-container": "#474746", "on-secondary": "#313030", "secondary-fixed": "#e5e2e1"
+            },
+            "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+            "spacing": { "margin-desktop": "64px", "gutter": "32px", "unit": "8px", "margin-mobile": "24px", "container-max": "1440px" },
+            "fontFamily": { "headline-lg": ["Anybody"], "label-mono": ["Space Mono"], "display-xl": ["Anybody"], "body-md": ["Hanken Grotesk"], "body-lg": ["Hanken Grotesk"] },
+            "fontSize": {
+                "headline-lg-mobile": ["32px", {"lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                "headline-lg": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                "label-mono": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "400"}],
+                "display-xl-mobile": ["48px", {"lineHeight": "52px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                "display-xl": ["80px", {"lineHeight": "88px", "letterSpacing": "-0.04em", "fontWeight": "800"}],
+                "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                "body-lg": ["20px", {"lineHeight": "32px", "fontWeight": "400"}]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        .redacted { background-color: #000; color: transparent; user-select: none; cursor: help; }
+        .grain { position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 50; opacity: 0.05; background-image: url("https://www.transparenttextures.com/patterns/p6-static.png"); }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+    </style>
+</head>
+<body class="bg-background text-primary selection:bg-primary selection:text-background overflow-x-hidden">
+<div class="grain"></div>
+<!-- Sidebar -->
+<aside class="hidden md:flex flex-col h-full w-64 fixed left-0 top-0 border-r border-primary bg-surface-container-lowest z-40 p-unit">
+<div class="mb-gutter p-2">
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tighter">SOLITUDE</h1>
+<p class="font-label-mono text-label-mono text-secondary">V01.2024</p>
+</div>
+<nav class="flex flex-col gap-unit flex-grow">
+<a class="flex items-center gap-unit text-secondary p-2 hover:invert transition-all font-label-mono text-label-mono" href="#"><span class="material-symbols-outlined">folder_open</span> ARCHIVE</a>
+<a class="flex items-center gap-unit text-secondary p-2 hover:invert transition-all font-label-mono text-label-mono" href="#"><span class="material-symbols-outlined">graphic_eq</span> SOUNDS</a>
+<a class="flex items-center gap-unit text-secondary p-2 hover:invert transition-all font-label-mono text-label-mono" href="#"><span class="material-symbols-outlined">menu_book</span> WRITINGS</a>
+<a class="flex items-center gap-unit text-secondary p-2 hover:invert transition-all font-label-mono text-label-mono" href="#"><span class="material-symbols-outlined">alternate_email</span> CONNECT</a>
+</nav>
+<div class="mt-auto border-t border-outline-variant pt-unit flex items-center gap-2">
+<div class="w-10 h-10 bg-surface-variant border border-primary"></div>
+<div class="font-label-mono text-[10px] leading-tight">SYSTEM: ONLINE<br/>ENCRYPTION: AES-256</div>
+</div>
+</aside>
+<div class="md:ml-64 flex flex-col min-h-screen">
+<header class="w-full top-0 sticky bg-background border-b border-primary z-30 transition-all py-gutter" id="main-header">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="font-headline-lg text-headline-lg-mobile md:text-headline-lg tracking-tighter text-primary">REFLECTION</div>
+<nav class="hidden md:flex gap-gutter items-center font-label-mono text-label-mono">
+<a class="text-secondary hover:text-primary transition-colors" href="#">CATALOG</a>
+<a class="text-primary font-bold border-b-2 border-primary pb-1" href="#">MANIFESTO</a>
+<a class="text-secondary hover:text-primary transition-colors" href="#">PROCESS</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="hover:bg-primary hover:text-on-primary p-2 transition-all"><span class="material-symbols-outlined">mail</span></button>
+<button class="md:hidden"><span class="material-symbols-outlined">menu</span></button>
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<section class="px-margin-mobile md:px-margin-desktop mt-16 md:mt-32">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-end">
+<div class="md:col-span-8">
+<p class="font-label-mono text-label-mono text-secondary mb-unit">[INTERNAL_PROTOCOL_V4]</p>
+<h1 class="font-display-xl-mobile md:font-display-xl text-display-xl-mobile md:text-display-xl text-primary leading-none tracking-tighter">VOID<br/>MANIFESTO</h1>
+</div>
+<div class="md:col-span-4 border-l border-primary pl-gutter hidden md:block">
+<p class="font-label-mono text-label-mono text-on-surface-variant italic">"The silence is not empty. It is a presence that demands recognition."</p>
+</div>
+</div>
+</section>
+<section class="px-margin-mobile md:px-margin-desktop mt-32 md:mt-48">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<div class="md:col-span-3 order-2 md:order-1">
+<div class="sticky top-32">
+<h2 class="font-label-mono text-label-mono text-primary border-b border-primary pb-unit mb-unit">01 // GENESIS</h2>
+<p class="font-label-mono text-[10px] text-secondary uppercase leading-relaxed">Origin: Unknown<br/>Location: <span class="redacted">The Black Hills</span><br/>Timestamp: 00:00:00</p>
+</div>
+</div>
+<div class="md:col-span-7 order-1 md:order-2 space-y-gutter">
+<p class="font-body-lg text-body-lg text-on-surface leading-relaxed">REFLECTION was birthed from the realization that modern sound has become too <span class="redacted">comfortable</span>. We have traded the jagged edges of truth for the smooth veneers of digital perfection.</p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed opacity-80">The project began in a basement where the humidity felt like a second skin. Every recorded note was a confrontation. Every silence was a <span class="redacted">threat</span>. We are not making music; we are documenting the dissolution of the ego through sonic pressure.</p>
+<div class="border border-primary p-gutter bg-surface-container-low mt-gutter">
+<h3 class="font-label-mono text-label-mono text-primary mb-unit">TRANSCRIPTION_LOG_01:</h3>
+<p class="font-label-mono text-label-mono text-secondary">"If you look into the signal long enough, the signal starts looking into you. We found the ghost in the machine and we gave it a microphone."</p>
+</div>
+</div>
+</div>
+</section>
+<section class="mt-32 md:mt-48 px-margin-mobile md:px-margin-desktop">
+<div class="relative w-full aspect-[1.49] border-2 border-primary group overflow-hidden">
+<img alt="Atmospheric Soundscape" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 filter grayscale hover:grayscale-0 contrast-125" src="https://lh3.googleusercontent.com/aida/AP1WRLv5rabrL_2izmj0qKHdjAxeyd5V8Nhqqec_VWF3lgXC5GS3ZgJpbFYAkNyh2h6SxW1KJw0t4K2SIrCI8D2pYKXw8o56kRyXb8nIbaEIW4hE5aKsNuPKaMtbxWw2f8gYRAWOc4jkww11i1nrCsFGpX7LanSbUXFzrlcqwXMRJmWNuMo3Nx8tP95BzINZSHGkePznds9F-jXW4_cU63Bl7Zm5Gh1yIj9wh_w8Y9102JrxDSLS9OskskpqwQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-60"></div>
+<div class="absolute bottom-4 left-4 bg-primary text-background px-2 py-1 font-label-mono text-[10px]">IMAGE_REF: 07_HATESCAPE</div>
+</div>
+</section>
+<section class="px-margin-mobile md:px-margin-desktop mt-32 md:mt-48">
+<h2 class="font-label-mono text-label-mono text-primary mb-gutter">02 // THE CORE PILLARS</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 border border-primary">
+<div class="p-gutter border-b md:border-b-0 md:border-r border-primary hover:bg-surface-container-high transition-colors">
+<span class="font-label-mono text-label-mono text-secondary block mb-gutter">P01</span>
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile text-primary mb-unit uppercase">Visceral Honesty</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">No filters. No tuning. The breath, the string noise, and the vocal strain are the data points of human presence.</p>
+</div>
+<div class="p-gutter border-b md:border-b-0 md:border-r border-primary bg-primary text-background">
+<span class="font-label-mono text-label-mono text-background opacity-60 block mb-gutter">P02</span>
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile text-background mb-unit uppercase">Atmospheric Dissolution</h3>
+<p class="font-body-md text-body-md text-background opacity-90">Soundscapes that expand until the listener's physical boundaries disappear. We aim for the feeling of being submerged.</p>
+</div>
+<div class="p-gutter hover:bg-surface-container-high transition-colors">
+<span class="font-label-mono text-label-mono text-secondary block mb-gutter">P03</span>
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile text-primary mb-unit uppercase">Industrial Decay</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Entropy is the only truth. We use failing hardware and digital rot to mirror the inevitable breakdown of all systems.</p>
+</div>
+</div>
+</section>
+<section class="px-margin-mobile md:px-margin-desktop mt-32 md:mt-48 pb-32">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<div class="md:col-span-5 relative">
+<div class="border border-primary p-1">
+<img alt="THE WATCHER" class="w-full aspect-[0.67] object-cover grayscale brightness-75" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQ7q-dZspVa2jSiV3zn2pcbL24EHAvx0hDi59dIwUN7Zri11kNlNr-DChDa6E3mkSgw46CAt5LzOhaYrREH8pjuSzuo5kj-MLBfrGzqutT6pN8YfvhI7sE9ehjeG1P3g8oLADKM4bRIO3UtGU4G3LKcqOO_NKgvWjd_8Czv-bwBsL8wo8zVCLdvpj5bNVOXvEfi8HQYosOKw1au55OATNk3Ycc20m0dAksVZoH3ns1YwLC9BuNZaQM3wr2RWYAAnDIivwUU3EIXr8"/>
+</div>
+<div class="mt-unit font-label-mono text-[10px] text-secondary italic">PORTRAIT: [REDACTED] — "THE WATCHER"</div>
+</div>
+<div class="md:col-span-7 flex flex-col justify-center">
+<h2 class="font-display-xl-mobile text-display-xl-mobile text-primary mb-gutter tracking-tighter">THE SERMON</h2>
+<div class="space-y-gutter font-body-lg text-on-surface leading-relaxed max-w-xl">
+<p>You are searching for a hook. You are searching for a melody to hum while you <span class="redacted">distract yourself</span> from the inevitable. We offer no such comfort.</p>
+<p>The reflection in the mirror is always slightly different than the person looking in. We capture that difference. We capture the <span class="redacted">latency of existence</span>.</p>
+<p class="border-l-4 border-primary pl-gutter italic">"The loudest scream is the one that is never uttered."</p>
+<div class="pt-gutter">
+<button class="group relative px-gutter py-4 border border-primary font-label-mono text-label-mono hover:bg-primary hover:text-on-primary transition-all overflow-hidden">
+<span class="relative z-10">DOWNLOAD PROTOCOL_01.PDF</span>
+<div class="absolute inset-0 bg-primary translate-x-[-101%] group-hover:translate-x-0 transition-transform duration-300"></div>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="w-full border-t border-outline-variant bg-background">
+<div class="w-full px-margin-mobile md:px-margin-desktop py-margin-mobile flex flex-col md:flex-row justify-between items-center gap-unit max-w-container-max mx-auto font-label-mono text-label-mono">
+<div class="text-primary font-bold">REFLECTION // 2024</div>
+<div class="flex gap-gutter text-secondary">
+<a class="hover:text-primary transition-opacity opacity-80 hover:opacity-100" href="#">INSTITUTIONAL</a>
+<a class="hover:text-primary transition-opacity opacity-80 hover:opacity-100" href="#">LEGAL</a>
+<a class="hover:text-primary transition-opacity opacity-80 hover:opacity-100" href="#">CREDITS</a>
+</div>
+<div class="text-secondary text-[10px] uppercase tracking-widest opacity-60">©2024 ALL RIGHTS RESERVED.</div>
+</div>
+</footer>
+</div>
+<script>
+    document.querySelectorAll('.redacted').forEach(el => {
+        el.addEventListener('click', () => {
+            el.style.backgroundColor = 'transparent';
+            el.style.color = 'inherit';
+            el.classList.remove('redacted');
+        });
+    });
+
+    window.addEventListener('scroll', () => {
+        const h = document.getElementById('main-header');
+        if (window.scrollY > 50) { h.classList.replace('py-gutter', 'py-4'); } 
+        else { h.classList.replace('py-4', 'py-gutter'); }
+    });
+</script>
+</body></html>
